@@ -1,7 +1,15 @@
 import React from 'react'
+import PageHeader from '../components/PageHeader'
+import AboutBg from '../assets/aboutImg.png'
 
-export default function About() {
+export default function About({img, title}) {
   return (
-    <div>About</div>
+    <div>
+      <PageHeader title="About Us" img={AboutBg}/>
+
+      <div>
+        
+      </div>
+    </div>
   )
 }

@@ -4,6 +4,7 @@ import { product } from "../product";
 import PageHeader from "../components/PageHeader";
 import ShopCategory from "./ShopCategory";
 import MoShopCate from "./MoShopCate";
+import Himg from '../assets/pageH-bg.png'
 
 export default function Shop() {
   const navigate = useNavigate();
@@ -14,7 +15,7 @@ export default function Shop() {
 
   return (
     <div className="flex flex-col justify-center items-center">
-      <PageHeader />
+      <PageHeader img={Himg} title='Welcome to Our Amazing Store' />
 
       <MoShopCate />
 

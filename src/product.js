@@ -63,5 +63,26 @@ export const product = [
     name: 'Beautiful Ankara Dress',
     category: 'clothing',
     price: 234 
+  },
+  {
+    id: '00146',
+    imgUrl: 'https://i5.walmartimages.com/asr/e61beef9-f050-4dac-87b7-76f2d6708423_1.3e2b998380c08dd5e707e3c5c253f29d.jpeg',
+    name: 'Women Leather Bag',
+    category: 'bag',
+    price: 234 
+  },
+  {
+    id: '00132',
+    imgUrl: 'https://www.nairaland.com/attachments/12729014_decdress139_jpege3e7339fe4910613d168d792f79eef84',
+    name: 'Stylish Evening Dress',
+    category: 'clothing',
+    price: 234 
+  },
+  {
+    id: '00123',
+    imgUrl: 'https://4.bp.blogspot.com/-dzC-SpK_PL4/XKIgoPg0FtI/AAAAAAAAA8w/SO8W-i38uZElaS5iJLhs2VyPk9Xt3DfsgCLcBGAs/s1600/ankara%2Bana%2Baso%2Bebi%2Bstyles%2B%252861%2529.jpg',
+    name: 'Beautiful Ankara Dress',
+    category: 'clothing',
+    price: 234 
   }
 ];

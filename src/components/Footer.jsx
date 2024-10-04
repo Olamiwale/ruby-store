@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="bg-gradient-to-r bg-black text-white pt- mt-10">
+    <div className="bg-gradient-to-r bg-black text-white">
       <div className="w-[90%] m-auto mt-5">
         <div>
           <h1 className="w-full text-3xl font-bold text-[#00df9a] py-8">MAPBYRUBY</h1>

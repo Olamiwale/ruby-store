@@ -1,17 +1,19 @@
 import React from 'react'
 import {projectData} from '../data'
 
-console.log(projectData)
+
 
 export default function Banner() {
 
 
   return (
-    <div>
+    <div className='bg-slate-300 py-10'>
 
     <div className='justify-center items-center flex flex-col'>
         
-          <p className='py-10 text-3xl font-bold'>Buy EveryThing From Us</p>  
+          <p className='pt-10 text-3xl font-bold'>Buy EveryThing From Us</p>  
+       {
+        /*
         <ul className='flex flex-wrap space-x-20'>
 
             <li  className='shadow-lg shadow-gray-500 bg-yellow-300 w-20 md:w-40 flex justify-center p-4 font-medium '>Cloth</li>
@@ -19,9 +21,11 @@ export default function Banner() {
             <li className='bg-yellow-300 shadow-lg shadow-gray-500 p-4 w-20 md:w-40 flex justify-center font-medium'>Wig</li>
             <li className='bg-yellow-300 shadow-lg shadow-gray-500 p-4 w-20 md:w-40 flex justify-center font-medium'>Shoe</li>
         </ul>
+        */
+       } 
     </div>
 
-    <div className='flex max-w-[1000px] m-auto justify-center p-10 items-center mt-20 gap-5 flex-wrap'>
+    <div className='flex m-auto justify-center p-10 items-center mt-20 gap-5 flex-wrap'>
         {projectData.map((items, id) => (
             <div key={id} className='bg-gray-200 shadow-lg p-[2px] flex flex-col justify-center items-center'>
                 
@@ -40,6 +44,8 @@ export default function Banner() {
                 
             </div>
         ))}
+
+        
     </div>
 
     <div className='justify-center mt-10 flex items-center'>
